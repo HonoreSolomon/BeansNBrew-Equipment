@@ -1,0 +1,91 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-color: #f4f1ed;
+    font-family: "Lato", sans-serrif, serif;
+    color: #4a4a4a;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #6f4e37;
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn-primary {
+    background-color: #6f4e37; /* Coffee brown for buttons */
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #b5651d;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #6f4e37;
+    color: white;
+    font-family: 'Pacifico' , cursive;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #fffaf0;
+    color: #4a4a4a;
+}
+
+.table {
+    background-color: #ffffff;
+    color: #4a4a4a;
+}
+
+.table thead {
+    background-color: #6f4e37;
+    color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f4f1ed;
+}
+
+.navbar {
+    background-color: #f4f1ed;
+    border-bottom: 2px solid #6f4e37;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #6f4e37;
+}
+
+.navbar-nav .nav-link {
+    color: #4a4a4a;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b5651d;
+}
+
+footer {
+    background-color: #6f4e37;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
